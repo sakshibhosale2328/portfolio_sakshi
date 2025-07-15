@@ -78,9 +78,9 @@ class ContactSection extends StatelessWidget {
 
           const SizedBox(height: 30),
 
-          // Footer Text
+
           Text(
-            "© 2024 Sakshi Abhinav Bhosale. Built with Flutter.",
+            "© 2025 Sakshi Abhinav Bhosale. Built with Flutter.",
             style: GoogleFonts.openSans(
               fontSize: 14,
               color: Colors.grey[700],

@@ -69,7 +69,7 @@ class InfoCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 280,
-      height: 260, // ✅ fixed height for consistency
+      height: 260,
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -94,7 +94,7 @@ class InfoCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          Expanded( // 🧠 ensures content fills height evenly
+          Expanded(
             child: ListView(
               physics: const NeverScrollableScrollPhysics(),
               children: items.map(

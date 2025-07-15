@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-// ✅ Web download using <a download>
+
   void _downloadResumeWeb() {
     const url = 'assets/Sakshi  (1).pdf';
     html.AnchorElement anchorElement = html.AnchorElement(href: url)
@@ -61,13 +61,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ..click();
   }
 
-// ✅ Mobile or desktop file download + open
+
   void _downloadResumeMobile() async {
-    final byteData = await rootBundle.load('assets/resume.pdf');
+    final byteData = await rootBundle.load('assets/Sakshi  (1).pdf');
 
     final buffer = byteData.buffer;
     final directory = await getTemporaryDirectory();
-    final filePath = '${directory.path}/Sakshi_Resume.pdf';
+    final filePath = '${directory.path}/Sakshi  (1).pdf';
     File file = File(filePath);
     await file.writeAsBytes(buffer.asUint8List());
 
