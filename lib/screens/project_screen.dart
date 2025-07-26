@@ -35,23 +35,24 @@ class ProjectsSection extends StatelessWidget {
                 description:
                 "A Flutter app that fetches real-time weather data using OpenWeatherMap API. Supports location and city search.",
                 githubLink:
-                "https://github.com/sakshiyewale/flutter-weather-app",
+                "https://github.com/sakshibhosale2328/portfolio_sakshi.git",
                 screenshots: ProjectScreenshots.weatherApp,
                 languages: 'Flutter • Dart • API Integration • Weather API',
               ),
               ProjectCard(
-                title: "📝 To-Do App",
+                title: "⚖️ BMI Calculator App",
                 description:
-                "Task manager app with local storage. Users can add, update, and delete tasks with a beautiful interface.",
-                githubLink: "#",
-                screenshots: ProjectScreenshots.todoApp,
-                languages: 'Flutter • GetX • Local Storage • State Management',
+                "A simple and responsive Flutter app that calculates Body Mass Index (BMI) based on user input for weight and height. It displays results with health categories and provides a clean, user-friendly interface.",
+                githubLink: "https://github.com/sakshibhosale2328/bmi_calculator.git",
+                screenshots: ProjectScreenshots.bmiApp,
+                languages: 'Flutter • Dart • setState • UI Design',
               ),
+
               ProjectCard(
                 title: "📅 Attendify (Intern Project)",
                 description:
                 "Real-time attendance tracker with secure login and leave request features. Built during Flutter internship.",
-                githubLink: "#",
+                githubLink: "https://github.com/sakshibhosale2328/attendify.git",
                 screenshots: ProjectScreenshots.attendifyApp,
                 languages:
                 'Flutter • Backend Integration • Auth • Real-time UI',
@@ -84,7 +85,7 @@ class ProjectCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 280,
-      height: 330,
+      height: 380,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white,

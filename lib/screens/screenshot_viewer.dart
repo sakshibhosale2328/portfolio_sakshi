@@ -20,7 +20,7 @@ class ScreenshotViewer extends StatelessWidget {
         foregroundColor: Colors.white,
       ),
       body: PageView.builder(
-        scrollDirection: Axis.vertical,
+        scrollDirection: Axis.horizontal,
         itemCount: screenshots.length,
         itemBuilder: (context, index) {
           return Center(

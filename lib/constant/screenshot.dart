@@ -7,7 +7,7 @@ class ProjectScreenshots {
     'assets/images/attendify_img5.jpg',
   ];
 
-  static const List<String> todoApp = [
+  static const List<String> bmiApp = [
     'assets/screenshots/todo/1.jpg',
     'assets/screenshots/todo/2.jpg',
   ];

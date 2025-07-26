@@ -31,8 +31,6 @@ class ContactSection extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 30),
-
-          // Contact Info Card
           Container(
             width: 400,
             padding: const EdgeInsets.all(20),
@@ -56,7 +54,7 @@ class ContactSection extends StatelessWidget {
                 ),
                 _contactItem(
                   icon: Icons.email,
-                  text: "sakshibhosale2323@gmail.com",
+                  text: "sakshibhosale2328@gmail.com",
                 ),
                 _contactItem(
                   icon: Icons.location_on,
@@ -65,12 +63,12 @@ class ContactSection extends StatelessWidget {
                 _contactItem(
                   icon: FontAwesomeIcons.linkedin,
                   text: "LinkedIn Profile",
-                  onTap: () => _launchUrl("https://www.linkedin.com/in/your-linkedin"),
+                  onTap: () => _launchUrl("https://www.linkedin.com/in/sakshi-bhosale-02a49b2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "),
                 ),
                 _contactItem(
                   icon: FontAwesomeIcons.github,
                   text: "GitHub Profile",
-                  onTap: () => _launchUrl("https://github.com/your-github"),
+                  onTap: () => _launchUrl("https://github.com/sakshibhosale2328"),
                 ),
               ],
             ),
@@ -79,13 +77,7 @@ class ContactSection extends StatelessWidget {
           const SizedBox(height: 30),
 
 
-          Text(
-            "© 2025 Sakshi Abhinav Bhosale. Built with Flutter.",
-            style: GoogleFonts.openSans(
-              fontSize: 14,
-              color: Colors.grey[700],
-            ),
-          ),
+
         ],
       ),
     );
@@ -105,13 +97,13 @@ class ContactSection extends StatelessWidget {
           children: [
             if (icon != null) ...[
               Icon(icon, color: const Color(0xFF8C6EFF)),
-              const SizedBox(width: 12),
+              const SizedBox(width: 10),
             ],
             Flexible(
               child: Text(
                 text,
                 style: GoogleFonts.openSans(
-                  fontSize: icon == null ? 16 : 14, // Bigger if no icon
+                  fontSize: icon == null ? 16 : 13.5,
                   fontWeight: icon == null ? FontWeight.bold : FontWeight.normal,
                   color: Colors.black87,
                   decoration: onTap != null ? TextDecoration.underline : TextDecoration.none,
